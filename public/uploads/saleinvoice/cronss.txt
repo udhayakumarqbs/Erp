@@ -1,0 +1,5 @@
+"http://localhost/balance?account_id=".$accountId."&api_key=".$apiKey;
+
+
+
+wget -q -O- https://qbrainstorm.com/smsalert/cron.php

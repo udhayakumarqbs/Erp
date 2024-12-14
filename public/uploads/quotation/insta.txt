@@ -1,0 +1,6 @@
+
+                    <!-- <li class="mx-auto">
+                        <a href="https://www.instagram.com/oauth/authorize?client_id=1234567890&redirect_uri=https://www.your-website.com/redirect&response_type=code" target="_blank" title="Share on Instagram" onclick="window.open('https://www.instagram.com/oauth/authorize?client_id=1234567890&redirect_uri=https://www.your-website.com/redirect&response_type=code'); return false;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li> -->

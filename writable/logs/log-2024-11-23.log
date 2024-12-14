@@ -1,0 +1,164 @@
+CRITICAL - 2024-11-23 13:02:05 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 1211.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:03:05 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:04:05 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:05:05 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:06:05 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:06:33 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:06:47 --> include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(./my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:07:05 --> Undefined constant "APP"
+in APPPATH\Config\Routes.php on line 1210.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:07:27 --> Undefined constant "APP_PATH"
+in APPPATH\Config\Routes.php on line 1210.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:08:05 --> Undefined constant "APP_PATH"
+in APPPATH\Config\Routes.php on line 1210.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:08:33 --> include_once(C:\Xampp\htdocs\Erp\public\./app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1210.
+ 1 APPPATH\Config\Routes.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\Xampp\\htdocs\\Erp\\public\\./app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1210)
+ 2 APPPATH\Config\Routes.php(1210): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-23 13:08:49 --> [DEPRECATED] Creation of dynamic property App\Models\Erp\EmailTemplateModel::$logger is deprecated in APPPATH\Models\Erp\EmailTemplateModel.php on line 26.
+ 1 APPPATH\Controllers\Erp\SettingController.php(56): App\Models\Erp\EmailTemplateModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\SettingController->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:08:59 --> Undefined property: CodeIgniter\Router\RouteCollection::$response
+in APPPATH\Config\Routes.php on line 11.
+ 1 APPPATH\Config\Routes.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Router\\RouteCollection::$response', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(891): CodeIgniter\Router\RouteCollection->{closure}()
+ 3 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:10:26 --> include_once(C:\Xampp\htdocs\Erp\../app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1212.
+ 1 APPPATH\Config\Routes.php(1212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\Xampp\\htdocs\\Erp\\../app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1212)
+ 2 APPPATH\Config\Routes.php(1212): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:11:05 --> syntax error, unexpected token "-", expecting "{"
+in APPPATH\Config\my-routes\client-routes.php on line 2.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:12:05 --> include_once(C:\Xampp\htdocs\Erp\public\../app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory
+in APPPATH\Config\Routes.php on line 1212.
+ 1 APPPATH\Config\Routes.php(1212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\Xampp\\htdocs\\Erp\\public\\../app/Config/my-routes/client-routes.php): Failed to open stream: No such file or directory', 'C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php', 1212)
+ 2 APPPATH\Config\Routes.php(1212): include_once()
+ 3 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\Xampp\\htdocs\\Erp\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-11-23 13:13:05 --> syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 1212.
+ 1 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-23 17:31:36 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\Xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 APPPATH\Controllers\Erp\ProjectManagementController.php(75): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\ProjectManagementController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-23 17:31:37 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\Xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 APPPATH\Controllers\Erp\ProjectManagementController.php(75): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\ProjectManagementController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-11-23 17:31:38 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\Xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(60): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 APPPATH\Controllers\Erp\ProjectManagementController.php(75): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\ProjectManagementController->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

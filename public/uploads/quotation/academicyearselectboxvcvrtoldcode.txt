@@ -1,0 +1,12 @@
+                                    <div class="item form-group">
+                                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="academic_year"><?php echo 'Academic Year' ?> <span class="required">*</span>
+                                        </label>
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                            <select class="form-control col-md-7 col-xs-12" name="academic_year" id="year" required="required">
+                                                <?php foreach ($academic_years as $academic_year) { ?>
+                                                    <option value="<?php echo $academic_year->session_year; ?>"><?php echo $academic_year->session_year; ?></option>
+                                                <?php } ?>
+                                            </select>
+                                            <div class="help-block"><?php echo form_error('academic_year'); ?></div>
+                                        </div>
+                                    </div>

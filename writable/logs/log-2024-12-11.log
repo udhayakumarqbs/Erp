@@ -1,0 +1,578 @@
+CRITICAL - 2024-12-11 19:05:09 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+in APPPATH\Controllers\Erp\MRPController.php on line 869.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:05:58 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(858): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:06:05 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+CRITICAL - 2024-12-11 19:06:54 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\Erp\MRPController.php on line 731.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:07:00 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\Erp\MRPController.php on line 731.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:07:04 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\Erp\MRPController.php on line 731.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:07:09 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\Erp\MRPController.php on line 731.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:07:14 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+in APPPATH\Controllers\Erp\MRPController.php on line 731.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:08:11 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+ERROR - 2024-12-11 19:08:18 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+ERROR - 2024-12-11 19:08:27 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+ERROR - 2024-12-11 19:08:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:' at line 1 in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `costing...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `costing...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `costing...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `costing...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\CostingModel.php(45): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(858): App\Models\Erp\MRP\CostingModel->updateCostingData('3', Array)
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:08:37 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(861): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:08:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:' at line 1 in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `costing...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `costing...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `costing...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `costing...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\CostingModel.php(45): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(858): App\Models\Erp\MRP\CostingModel->updateCostingData('3', Array)
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:08:52 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(861): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:11:34 --> Cannot redeclare App\Controllers\Erp\MRPController::workstation_add()
+in APPPATH\Controllers\Erp\MRPController.php on line 753.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-12-11 19:12:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '3 = :3:' at line 1 in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `costing...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `costing...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `costing...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `costing...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\CostingModel.php(45): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(900): App\Models\Erp\MRP\CostingModel->updateCostingData('3', Array)
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:12:12 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:04 --> syntax error, unexpected token "$", expecting variable
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 151.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:14 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:14 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:18 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:18 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:24 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:30 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:32 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:32 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:33 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:34 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:44 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:14:54 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 153.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:15:10 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+CRITICAL - 2024-12-11 19:15:23 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:15:48 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+ERROR - 2024-12-11 19:16:00 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+CRITICAL - 2024-12-11 19:16:12 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:16:43 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+CRITICAL - 2024-12-11 19:17:00 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('2')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:04 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Erp\MRPController.php on line 886.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:06 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Erp\MRPController.php on line 886.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:10 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Erp\MRPController.php on line 886.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:10 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Erp\MRPController.php on line 886.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:16 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Erp\MRPController.php on line 886.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Controllers\\Erp\\MRPController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Erp\\MRPController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Erp\\MRPController')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Erp\\MRPController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:23:26 --> unlink(C:\xampp\htdocs\Erp\writable\debugbar/debugbar_1733925050.414158.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\Erp\\writable\\debugbar/debugbar_1733925050.414158.json): No such file or directory', 'C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\Erp\\writable\\debugbar/debugbar_1733925050.414158.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1733925203.688016', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(476): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:23:32 --> Array
+(
+    [limit] => 10
+    [offset] => 0
+    [status] => 
+)
+
+CRITICAL - 2024-12-11 19:23:47 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:24:19 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:24:44 --> Undefined variable $page
+in APPPATH\Views\erp\index.php on line 1013.
+ 1 APPPATH\Views\erp\index.php(1013): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\Erp\\app\\Views\\erp\\index.php', 1013)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Erp\\app\\Views\\erp\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('erp/index', [], true)
+ 5 APPPATH\Controllers\Erp\MRPController.php(919): view('erp/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:24:54 --> Undefined variable $page
+in APPPATH\Views\erp\index.php on line 1013.
+ 1 APPPATH\Views\erp\index.php(1013): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'C:\\xampp\\htdocs\\Erp\\app\\Views\\erp\\index.php', 1013)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Erp\\app\\Views\\erp\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('erp/index', [], true)
+ 5 APPPATH\Controllers\Erp\MRPController.php(919): view('erp/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:25:34 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(903): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:27:16 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(907): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:28:40 --> syntax error, unexpected identifier "builder", expecting ";"
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\MRP\\WorkstationModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 3 APPPATH\Controllers\Erp\MRPController.php(54): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\MRP\\WorkstationModel')
+ 4 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\MRPController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:28:52 --> Missing argument for "(:num)" in route "erp/mrp/planning-view/(:num)".
+in SYSTEMPATH\Router\RouteCollection.php on line 1367.
+ 1 SYSTEMPATH\Router\RouteCollection.php(1169): CodeIgniter\Router\RouteCollection->buildReverseRoute('erp/mrp/planning-view/(:num)', [])
+ 2 SYSTEMPATH\Common.php(978): CodeIgniter\Router\RouteCollection->reverseRoute('erp.mrp.planningview')
+ 3 SYSTEMPATH\Helpers\url_helper.php(482): route_to('erp.mrp.planningview')
+ 4 APPPATH\Controllers\Erp\MRPController.php(907): url_to('erp.mrp.planningview')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->CostingAdd('1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:30:15 --> Too few arguments to function CodeIgniter\Database\BaseConnection::table(), 0 passed in C:\xampp\htdocs\Erp\app\Models\Erp\MRP\WorkstationModel.php on line 152 and exactly 1 expected
+in SYSTEMPATH\Database\BaseConnection.php on line 881.
+ 1 APPPATH\Models\Erp\MRP\WorkstationModel.php(152): CodeIgniter\Database\BaseConnection->table()
+ 2 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:31:15 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\WorkstationModel.php(152): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:31:15 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:31:58 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `worksta...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `worksta...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `worksta...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `worksta...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\WorkstationModel.php(152): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:31:58 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:31:59 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `worksta...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `worksta...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `worksta...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `worksta...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\WorkstationModel.php(152): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:31:59 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-12-11 19:32:01 --> mysqli_sql_exception: Column 'id' in where clause is ambiguous in C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `worksta...', 0)
+#1 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `worksta...')
+#2 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `worksta...')
+#3 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `worksta...', Array, false)
+#4 C:\xampp\htdocs\Erp\app\Models\Erp\MRP\WorkstationModel.php(152): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Erp\app\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+#6 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+#7 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+#8 C:\xampp\htdocs\Erp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Erp\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-12-11 19:32:01 --> Call to a member function getRowArray() on bool
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-12-11 19:32:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+in APPPATH\Models\Erp\MRP\WorkstationModel.php on line 152.
+ 1 APPPATH\Controllers\Erp\MRPController.php(789): App\Models\Erp\MRP\WorkstationModel->get_workstation_data_by_id('5')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Erp\MRPController->workstation_edit('5')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\MRPController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

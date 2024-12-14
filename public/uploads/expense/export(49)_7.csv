@@ -1,0 +1,4 @@
+"Order Code","Supplier","Company Transport","Transport","Units","Charge","Delivery date","Status","Terms and Condition","Notes","REQ Code","Supplier Location"
+"RFQ_ORDER - 1","Production Thamizharasi SO128","No","","0","0","2024-01-09","Approved","Test","Test","REQ -1","Test Address,chennai"
+"QWE14","Production Thamizharasi SO128","No","","0","0","2024-01-12","Approved","test","test","USAP12345","Test Address,chennai"
+"CO01","Production Thamizharasi SO128","No","","0","0","2024-01-13","Approved","test","test","CR01","Test Address,chennai"

@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+    overflow:hidden;
+    color:rgba(0,0,0,0.7);
+}
+p{
+    text-align: justify;
+    line-height: 24px;
+}
+header{
+    background-color:#0f5cac;
+    color:white;
+    text-align: center;
+}
+.install-body{
+    height:80vh;
+    overflow-y: scroll;;
+}
+.install-frame{
+    width:60%;
+    margin:auto;
+}
+.install-cont-btn{
+    color:white;
+    background-color:#74b444;
+    display:inline-block;
+    text-decoration: none;
+    padding: 6px 12px;
+}
+.install-cont-btn:hover{
+    background-color:#5d992f;
+}
+footer{
+    background-color:#0f5cac;
+}
+footer p{
+    padding:8px;
+    text-align:center;
+    color:white;
+}
+header h1{
+    padding:8px;
+}

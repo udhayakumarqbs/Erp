@@ -1,0 +1,153 @@
+WARNING - 2024-12-10 19:25:21 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-10 19:25:39 --> 1
+INFO - 2024-12-10 19:25:39 --> 2
+INFO - 2024-12-10 19:25:39 --> Array
+(
+    [0] => Array
+        (
+            [product_id] => 45
+            [product_type] => rawmaterial
+            [price] => 21
+            [quantity] => 22
+            [amount] => 462.00
+        )
+
+    [1] => Array
+        (
+            [product_id] => 53
+            [product_type] => rawmaterial
+            [price] => 21
+            [quantity] => 22
+            [amount] => 462.00
+        )
+
+    [2] => Array
+        (
+            [product_id] => 43
+            [product_type] => rawmaterial
+            [price] => 21
+            [quantity] => 22
+            [amount] => 462.00
+        )
+
+)
+
+INFO - 2024-12-10 19:25:39 --> inserted
+INFO - 2024-12-10 19:25:39 --> 26
+INFO - 2024-12-10 19:25:39 --> rawmaterial
+INFO - 2024-12-10 19:25:39 --> 47
+INFO - 2024-12-10 19:25:39 --> rawmaterial
+INFO - 2024-12-10 19:25:39 --> 48
+INFO - 2024-12-10 19:25:39 --> rawmaterial
+INFO - 2024-12-10 19:25:39 --> 49
+INFO - 2024-12-10 19:26:38 --> Array
+(
+    [0] => 47
+    [1] => 48
+    [2] => 49
+)
+
+WARNING - 2024-12-10 19:27:28 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-10 19:27:30 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-12-10 19:27:30 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-10 19:27:42 --> Array
+(
+    [product_type] => rawmaterial
+    [item_id] => 50
+    [quantity] => 2
+    [unit_price] => 22
+    [bom_id] => 26
+    [amount] => 44.00
+)
+
+INFO - 2024-12-10 19:27:42 --> Array
+(
+    [0] => 47
+    [1] => 50
+    [2] => 49
+)
+
+WARNING - 2024-12-10 19:28:29 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-10 19:28:39 --> Array
+(
+    [product_type] => rawmaterial
+    [item_id] => 58
+    [quantity] => 2
+    [unit_price] => 22
+    [bom_id] => 26
+    [amount] => 44.00
+)
+
+INFO - 2024-12-10 19:28:39 --> Array
+(
+    [0] => 47
+    [1] => 51
+    [2] => 50
+)
+
+WARNING - 2024-12-10 19:30:37 --> [DEPRECATED] Optional parameter $assigned_person_id declared before required parameter $end_date is implicitly treated as a required parameter in APPPATH\Models\Erp\LeadsModel.php on line 701.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs\\Erp\\vendor\\codeigniter4\\framework\\system\\Debug\\Exceptions.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Erp\\app\\Models\\Erp\\LeadsModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Erp\\LeadsModel')
+ 4 APPPATH\Controllers\Erp\CRMController.php(65): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Erp\\LeadsModel')
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Erp\CRMController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-12-10 19:30:42 --> Array
+(
+    [product_type] => rawmaterial
+    [item_id] => 43
+    [quantity] => 2
+    [unit_price] => 12
+    [bom_id] => 26
+    [amount] => 24.00
+)
+
+INFO - 2024-12-10 19:30:42 --> Array
+(
+    [0] => 47
+    [1] => 52
+    [2] => 51
+)
+
